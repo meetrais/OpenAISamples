@@ -1,7 +1,7 @@
 import os
 import openai
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API-Key"
 
 def CreateEmbeddings(text):
     openai.api_key = os.getenv("OPENAI_API_KEY")
